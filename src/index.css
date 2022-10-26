@@ -12,7 +12,7 @@ body {
 .app-container {
   height: 400px;
   width: 300px;
-  background: #2b5870;
+  background: #2a2e3c;
   border-radius: 20px;
   box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
 }
@@ -44,12 +44,12 @@ button {
   width: 80px;
   font-size: 32px;
   color: #ffffff;
-  background: rgb(105, 104, 104);
+  background: #696868;
   border: 2px #ffffff solid;
 }
 
 button:hover {
-  background: rgb(184, 184, 184);
+  background: #b8b8b8;
   cursor: pointer;
 }
 
@@ -64,13 +64,17 @@ button:focus {
 }
 
 .neutral {
-  background: rgb(184, 184, 184);
+  background: #b8b8b8;
 }
 
 .cold {
-  background: #035aa6;
+  background: #34daff;
+}
+
+.warm {
+  background: #ff8800;
 }
 
 .hot {
-  background: #ff5200;
+  background: #ff4800;
 }
