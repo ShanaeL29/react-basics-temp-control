@@ -26,9 +26,9 @@ body {
 
 .temperature-display {
   display: flex;
-  border-radius: 50%;
+  border-radius: 25%;
   color: #ffffff;
-  height: 220px;
+  height: 200px;
   width: 220px;
   text-align: center;
   justify-content: center;
@@ -39,7 +39,7 @@ body {
 }
 
 button {
-  border-radius: 100px;
+  border-radius: 20px;
   height: 80px;
   width: 80px;
   font-size: 32px;

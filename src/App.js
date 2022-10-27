@@ -14,17 +14,19 @@ const App = () => {
   };
 
   const increaseTemp = () => {
-    if (temp < 106) {
-      newTemp += 1;
+    if (temp === 106) {
+      return;
     }
+    newTemp += 1;
     setTemp(newTemp);
     colorSet(newTemp);
   };
 
   const decreaseTemp = () => {
-    if (temp > -3) {
-      newTemp -= 1;
+    if (temp === -3) {
+      return;
     }
+    newTemp -= 1;
     setTemp(newTemp);
     colorSet(newTemp);
   };
